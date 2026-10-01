@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--ink:#211b1c;--cream:#f7f2ed;--rose:#c7837d;--rose2:#e7b7ae;--gold:#b9945b;--muted:#766b6b;--white:#fff;--line:rgba(33,27,28,.12);--shadow:0 24px 70px rgba(47,28,29,.12)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif}a{text-decoration:none;color:inherit}.serif{font-family:'Playfair Display',serif}.announcement{background:var(--ink);color:#fff;text-align:center;padding:9px;font-size:12px;letter-spacing:.12em;text-transform:uppercase}.navbar{background:rgba(247,242,237,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.navbar-brand{font-family:'Playfair Display',serif;font-size:27px;font-weight:700;letter-spacing:-.03em}.navbar-brand small{font:600 9px 'DM Sans';letter-spacing:.2em;display:block;color:var(--gold)}.nav-link{font-size:13px;font-weight:600;margin:0 7px}.nav-link:hover{color:var(--rose)}.btn-premium{background:var(--ink);color:#fff;border:0;border-radius:100px;padding:13px 22px;font-weight:700;font-size:13px}.btn-premium:hover{background:var(--rose);color:#fff}.btn-outline-premium{border:1px solid var(--ink);border-radius:100px;padding:12px 20px;font-weight:700;font-size:13px}.hero{min-height:690px;display:flex;align-items:center;position:relative;overflow:hidden;background:#eee2dc}.hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(247,242,237,.98) 0%,rgba(247,242,237,.75) 42%,rgba(247,242,237,.05) 78%),url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1800&q=85') center/cover}.hero-content{position:relative;z-index:1;max-width:620px;padding:80px 0}.eyebrow{font-size:11px;letter-spacing:.2em;text-transform:uppercase;font-weight:800;color:var(--rose)}h1{font-family:'Playfair Display',serif;font-size:clamp(52px,7vw,92px);line-height:.94;letter-spacing:-.055em;margin:17px 0 25px}h2{font-family:'Playfair Display',serif;font-size:clamp(38px,5vw,62px);line-height:1;letter-spacing:-.04em}.lead{font-size:17px;line-height:1.75;color:var(--muted);max-width:570px}.hero-pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.pill{padding:10px 15px;background:rgba(255,255,255,.7);border:1px solid var(--line);border-radius:100px;font-size:12px;font-weight:700}.section{padding:105px 0}.section-sm{padding:70px 0}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:45px}.section-head p{max-width:500px;color:var(--muted);line-height:1.7}.directory-card{height:100%;background:#fff;border:1px solid var(--line);border-radius:26px;overflow:hidden;transition:.35s;box-shadow:0 8px 25px rgba(0,0,0,.03)}.directory-card:hover{transform:translateY(-8px);box-shadow:var(--shadow)}.card-img{height:245px;object-fit:cover;width:100%}.card-body{padding:24px}.tag{display:inline-flex;padding:6px 10px;border-radius:100px;background:#f5e4e0;color:#8b514d;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.card-title{font-family:'Playfair Display',serif;font-size:25px;margin:14px 0 8px}.muted{color:var(--muted)}.rating{font-size:12px;color:#a27439}.feature-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:22px}.feature-panel{border-radius:30px;overflow:hidden;position:relative;min-height:520px;background:#342b2c;color:#fff}.feature-panel img{width:100%;height:100%;object-fit:cover;opacity:.78}.feature-panel .overlay{position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,13,14,.8),transparent 60%);padding:36px;display:flex;flex-direction:column;justify-content:end}.mini-stack{display:grid;gap:22px}.mini-card{background:#fff;border:1px solid var(--line);border-radius:28px;padding:30px;min-height:249px}.mini-card .num{font:600 42px 'Playfair Display';color:var(--rose)}.article{background:#fff;border-radius:26px;overflow:hidden;border:1px solid var(--line);height:100%}.article img{height:210px;width:100%;object-fit:cover}.article-body{padding:23px}.article-body h3{font:600 24px 'Playfair Display';line-height:1.1}.newsletter{background:var(--ink);color:#fff;border-radius:35px;padding:55px}.newsletter .form-control{border-radius:100px;padding:15px 20px;border:0}.footer{background:#1d1718;color:#fff;padding:75px 0 25px}.footer a{color:#bdb1b1;font-size:13px;display:block;margin:10px 0}.footer h6{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#dca79f}.footer-bottom{border-top:1px solid rgba(255,255,255,.12);margin-top:45px;padding-top:20px;color:#958989;font-size:12px}.page-hero{padding:95px 0;background:linear-gradient(135deg,#efe0da,#f8f4f0);border-bottom:1px solid var(--line)}.page-hero h1{font-size:clamp(48px,7vw,78px);margin-bottom:18px}.filterbar{background:#fff;border:1px solid var(--line);padding:15px;border-radius:100px;display:flex;gap:10px;align-items:center}.filterbar input,.filterbar select{border:0;background:transparent;outline:0;font-size:13px;padding:8px 14px}.stat{padding:25px;border:1px solid var(--line);border-radius:22px;background:#fff}.stat strong{display:block;font:600 42px 'Playfair Display'}.faq{border-bottom:1px solid var(--line);padding:22px 0}.faq summary{cursor:pointer;font:600 21px 'Playfair Display'}.faq p{color:var(--muted);line-height:1.7;max-width:750px;padding-top:12px}.contact-box{background:#fff;border-radius:30px;padding:40px;border:1px solid var(--line)}.form-control,.form-select{border-radius:14px;padding:13px 15px;border:1px solid var(--line);background:#fff}.scroll-top{position:fixed;right:22px;bottom:22px;width:44px;height:44px;border-radius:50%;border:0;background:var(--ink);color:#fff;z-index:20;opacity:0;transform:translateY(15px);transition:.3s}.scroll-top.show{opacity:1;transform:none}.reveal{opacity:0;transform:translateY(30px);transition:.7s ease}.reveal.visible{opacity:1;transform:none}.marquee{overflow:hidden;white-space:nowrap;background:var(--rose);color:#fff;padding:13px 0;font-size:11px;font-weight:800;letter-spacing:.2em}.marquee span{display:inline-block;padding-right:50px;animation:marquee 24s linear infinite}@keyframes marquee{to{transform:translateX(-100%)}}@media(max-width:991px){.hero{min-height:650px}.hero:before{background:linear-gradient(90deg,rgba(247,242,237,.98),rgba(247,242,237,.72)),url('https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=1400&q=80') center/cover}.feature-grid{grid-template-columns:1fr}.section{padding:75px 0}.navbar .btn-premium{margin-top:10px}.filterbar{border-radius:20px;flex-wrap:wrap}.filterbar input,.filterbar select{width:100%;border-bottom:1px solid var(--line)}}@media(max-width:575px){h1{font-size:52px}.hero-content{padding:55px 0}.section-head{display:block}.section-head h2{margin-bottom:18px}.newsletter{padding:35px 22px}.page-hero{padding:70px 0}}
+
+/* ================= COSMICA REQUESTED UPDATES ================= */
+/* 1. Home subscribe button */
+.newsletter .subscribe-btn{background:#b86b77!important;color:#fff!important;border-color:#b86b77!important}
+.newsletter .subscribe-btn:hover{background:#8f4f5b!important;border-color:#8f4f5b!important;color:#fff!important}
+/* 4. Active menu */
+.nav-link.active{color:#b86b77!important;font-weight:800!important;position:relative}
+.nav-link.active:after{content:"";position:absolute;left:7px;right:7px;bottom:2px;height:2px;background:#b86b77;border-radius:5px}
+/* 5. Footer responsive */
+@media (min-width:576px) and (max-width:991.98px){.footer .row>.footer-col-responsive{width:50%!important;flex:0 0 50%!important}}
+@media (max-width:575.98px){.footer .row>.footer-col-responsive{width:100%!important;flex:0 0 100%!important}}
+/* Social icons */
+.cosmica-socials{display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin-top:18px}
+.cosmica-socials a{width:38px!important;height:38px;display:inline-flex!important;align-items:center;justify-content:center;border:1px solid rgba(255,255,255,.22);border-radius:50%;color:#fff!important;margin:0!important;font-size:15px!important;transition:all .25s ease}
+.cosmica-socials a:hover{background:#b86b77;border-color:#b86b77;color:#fff!important;transform:translateY(-4px)}
+/* Related sections */
+.related-section{padding:95px 0;background:#f0e7e2}
+.related-card{height:100%;background:#fff;border:1px solid var(--line);border-radius:26px;padding:30px;transition:.3s;box-shadow:0 8px 25px rgba(0,0,0,.03)}
+.related-card:hover{transform:translateY(-8px);box-shadow:var(--shadow)}
+.related-card .related-icon{font-size:30px;color:#c7837d;margin-bottom:20px}
+/* Contact map */
+.map-section{padding:0 0 95px}
+.map-frame{height:430px;border:0;width:100%;border-radius:30px;display:block}
+/* Directory submission */
+.submission-section{padding:95px 0;background:#211b1c;color:#fff}
+.submission-section .submission-box{border:1px solid rgba(255,255,255,.15);border-radius:30px;padding:45px}
+
+/* =========================================================
+   COSMICA FINAL UI FIXES
+   ========================================================= */
+
+/* 1. Strong active navigation state */
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: #b86b77 !important;
+  font-weight: 700 !important;
+  position: relative;
+}
+.navbar .nav-link.active::after,
+.navbar .nav-link[aria-current="page"]::after {
+  content: "";
+  position: absolute;
+  left: .75rem;
+  right: .75rem;
+  bottom: .15rem;
+  height: 2px;
+  border-radius: 99px;
+  background: #b86b77;
+}
+
+/* 3. Contact map / submissions */
+.contact-map-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+}
+.contact-map-section .map-wrap {
+  height: 100%;
+  min-height: 560px;
+}
+.contact-map-section iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 560px;
+  border: 0;
+}
+.directory-submissions-final {
+  margin-top: 0;
+  padding: 5rem 0;
+}
+.cosmica-socials-final {
+  display: flex;
+  gap: .65rem;
+  flex-wrap: wrap;
+}
+.cosmica-socials-final a {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,.15);
+  color: inherit;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+.cosmica-socials-final a:hover {
+  background: #b86b77;
+  border-color: #b86b77;
+  color: #fff;
+  transform: translateY(-4px);
+}
+
+/* Remove obsolete Keep Exploring block if present */
+.keep-exploring,
+.keep-exploring-section,
+.cosmica-related-section {
+  display: none !important;
+}
+
+/* 4. Footer links hover */
+footer a:not(.cosmica-socials-final a) {
+  transition: color .25s ease, transform .25s ease;
+}
+footer a:not(.cosmica-socials-final a):hover {
+  color: #b86b77 !important;
+  transform: translateX(4px);
+}
+
+/* 5. Other inner pages: four balanced content sections */
+.inner-related-final {
+  padding: 5rem 0;
+}
+.inner-related-final .related-card {
+  height: 100%;
+  border-radius: 22px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 15px 45px rgba(25,18,22,.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.inner-related-final .related-card:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 24px 55px rgba(25,18,22,.14);
+}
+.inner-related-final .related-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+}
+.inner-related-final .related-content {
+  padding: 1.4rem;
+}
+.inner-related-final .related-label {
+  font-size: .72rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  opacity: .65;
+}
+@media (max-width: 991.98px) {
+  .contact-map-section .map-wrap,
+  .contact-map-section iframe {
+    min-height: 420px;
+  }
+}
+@media (max-width: 575.98px) {
+  .contact-map-section .map-wrap,
+  .contact-map-section iframe {
+    min-height: 340px;
+  }
+}
+
+/* =========================================================
+   FINAL PAGE STRUCTURE
+   Non-home / non-contact pages: hero + one related-content
+   section only. No generic "More from Cosmica" section.
+   ========================================================= */
+.inner-related-content {
+  padding: 5rem 0;
+}
+.inner-related-card {
+  overflow: hidden;
+  border-radius: 24px;
+  background: #fff;
+  box-shadow: 0 18px 50px rgba(25,18,22,.08);
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+.inner-related-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 26px 60px rgba(25,18,22,.14);
+}
+.inner-related-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+}
+.inner-related-card-body {
+  padding: 1.5rem;
+}
+.inner-related-card-body h3 {
+  margin: .5rem 0 1.25rem;
+  font-size: 1.35rem;
+}
+.inner-related-label {
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .14em;
+  font-weight: 700;
+  opacity: .62;
+}
